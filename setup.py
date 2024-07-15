@@ -17,9 +17,9 @@ def get_requirements(file_path:str)-> List[str]:
     return requirements
 
 setup(
-    name = 'mlproject', 
+    name = 'ml_project', 
     version= '0.0.1',
-    author= 'Aditya',
+    author= 'AdityaAcharya',
     author_email= 'acharyaaditya2003@gmail.com',
     packages= find_packages(),
     install_requires= get_requirements('requirements.txt')
